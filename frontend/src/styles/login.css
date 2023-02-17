@@ -94,3 +94,9 @@ button{
     font-family: 'Josefin sans';
     font-weight: lighter;
 }
+.toAuth:hover{
+    cursor: pointer;
+}
+.toCheck:hover{
+    cursor: pointer;
+}

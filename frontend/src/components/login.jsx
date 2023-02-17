@@ -44,7 +44,7 @@ export default function Login() {
 
                         <label>
                             <div className="checkbox">
-                                <input type="checkbox" id="box" /> I have read the agreement
+                                <input type="checkbox" id="box" className="toCheck" /> I have read the agreement
                             </div>
                         </label>
 
@@ -54,7 +54,7 @@ export default function Login() {
 
                         <div className="containerbutton" id="btn-button">
                             <Link to="/Main" ><submid>
-                                <button>Login</button>
+                                <button className="toAuth">Login</button>
                             </submid></Link>
                         </div>
                     </form>
